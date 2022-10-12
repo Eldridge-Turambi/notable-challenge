@@ -6,8 +6,8 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
-doctor1 = Doctor.create(name: 'Dr. Who')
-
-patient1 = doctor1.patients.create(name: 'patient1', doctor_id: doctor1.id)
-
-appointment1 = Appointment.create(time: 8, doctor_id: doctor1.id, patient_id: patient1.id)
+# doctor1 = Doctor.create(name: 'Dr. Who')
+#
+# patient1 = doctor1.patients.create(name: 'patient1', doctor_id: doctor1.id)
+#
+# appointment1 = Appointment.create(time: 8, doctor_id: doctor1.id, patient_id: patient1.id)
